@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Feed Items-Clément Cheng's SixDoors Page</title>
+	<link rel="stylesheet" href="css/sixdoors-stylesheet.css">
+	<script type="text/javascript" src="js/handlebars.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</head>
+
+<body>
+	<div id="main"></div>
+	<script id="template" type="text/x-handlebars-template">
+			<h1> {{getTitle}} </h1>
+			<div class="feed_items">
+			{{#each meta_item_pictures}}
+				<div>
+					<img src="{{size_279}}"/>
+				</div>
+			{{/each}}
+			</div>
+	</script>
+	<script type="text/javascript" src="js/sixdoors-script.js" /></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+div div {
+	font-size: 1.2em;
+}
+
+h1 {
+	text-align: center;
+	font-size: 2.5em;
+}
+
+img {
+	display: block;
+	margin: 5px 5px;
+	border: 1px solid grey;
+	position: relative;
+}
+
+.collections div {
+	text-align: left;
+	border: 1px solid grey;
+	margin: 10px;
+	display: inline-block;
+	position: relative;
+}
+
+.seller_interviews div {
+	text-align: center;
+	border: 1px solid green;
+	margin: 10px;
+	display: inline-block;
+	position: relative;
+}
+
+.feed_items div {
+	text-align: center;
+	border: 1px solid blue;
+	margin: 10px;
+	display: inline-block;
+	position: relative;
+}
+
+#interview_banner {
+	position:absolute;
+	top: -2%;
+	left: 35%;
+    z-index: 1;
+    color: white;
+    background-color: black;
+}
